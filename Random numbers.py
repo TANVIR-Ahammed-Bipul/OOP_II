@@ -13,5 +13,6 @@ def guess_number():
             print("Too low, try again.")
         else:
             print("Too high, try again.")
+    print("Secret Numbers: ", secret_number)
 
 guess_number()
